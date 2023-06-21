@@ -1,17 +1,16 @@
 import React from "react";
 
-/* import Navbar from "./navbar"; */
-
 //include images into your bundle
-import rigoImage from "../../img/rigo-baby.jpg";
+/* import rigoImage from "../../img/rigo-baby.jpg"; */
 import Navbar from "./navbar.jsx";
+import Footer from "./footer";
 
 //create your first component
 const Home = () => {
   return (
     <div className="text-center">
       <Navbar />
-      <Navbar />
+      <Footer />
     </div>
   );
 };
