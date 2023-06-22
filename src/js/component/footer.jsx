@@ -2,9 +2,9 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="navbar bg-dark">
-      <div className="container-fluid">
-        <p className="text-light">Copyright Your Website 2019</p>
+    <footer className="navbar bg-dark mt-5">
+      <div className="container-fluid d-flex justify-content-center">
+        <p className="text-light">Copyright Your Website 2023</p>
       </div>
     </footer>
   );
