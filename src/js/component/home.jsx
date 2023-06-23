@@ -20,7 +20,7 @@ const Home = () => {
       <div className="container-fluid w-75">
         <div className="row">
           <div className="col p-0">
-            <div className="container">
+            <div className="container mt-2">
               {/* JUMBOTRON */}
               <Jumbotron />
             </div>
