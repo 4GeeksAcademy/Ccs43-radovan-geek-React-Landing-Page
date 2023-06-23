@@ -1,17 +1,16 @@
 import React from "react";
 
 const Jumbotron = () => {
-    return (
-        <div>
-            <div className="card" style={{ width: "18rem" }} />
-            <img src="..." class="card-img-top" alt="..." />
-            <div className="card-body">
-                <h5 className="card-title">Card title</h5>
-                <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-            </div>
-        </div>
-    )
+  return (
+    <div className="card border border-0 opacidad">
+      <div className="card-body container-fluid">
+        <h5 className="card-title fs-1">A Warn Welcome!</h5>
+        <p className="card-text">Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting,</p>
+        <a href="#" className="btn btn-primary">Call to Action</a>
+      </div>
+    </div>)
 };
 
-export default Jumbotron;
+export default Jumbotron; 
+     
+   
